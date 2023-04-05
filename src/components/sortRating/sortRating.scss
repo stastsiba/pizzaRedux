@@ -1,0 +1,70 @@
+.sortRating {
+  .sortRating__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+    .sortRating__image {
+      cursor: pointer;
+      transition: ease 0.4s;
+    }
+    .sortRating__image-active {
+      transform: rotate(180deg);
+      transition: ease 0.4s;
+      cursor: pointer;
+    }
+    .sortRating__list-container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      gap: 8px;
+      .sortRating__list-sort {
+        cursor: pointer;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.015em;
+        color: #2c2c2c;
+      }
+      .sortRating__list {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.015em;
+        color: #000000;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1;
+        background: #ffffff;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+        border-radius: 10px;
+        .active {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 17px;
+          letter-spacing: 0.015em;
+          color: #000000;
+          cursor: pointer;
+          padding: 15px;
+          &:hover {
+            color: #fe5f1e;
+            background-color: rgba(254, 95, 30, 0.05);
+            border-radius: 15px;
+          }
+        }
+      }
+      .sortRating_list-active {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.015em;
+        color: #fe5f1e;
+        cursor: pointer;
+      }
+    }
+  }
+}

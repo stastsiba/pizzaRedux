@@ -1,0 +1,37 @@
+.basketButton {
+  .basketButton__wrapper {
+    background: #fe5f1e;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+    padding: 12px 20px;
+    .basketButton__price {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+    }
+    .basketButton__line {
+      width: 1px;
+      background: rgba(255, 255, 255, 0.25);
+      height: 25px;
+    }
+    .basketButton__sum-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+      .basketButton__sum-counter {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+      }
+    }
+  }
+}

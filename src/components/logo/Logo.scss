@@ -1,0 +1,39 @@
+.logo {
+  .logo__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    .logo__title-wrapper {
+      .logo__title {
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: #181818;
+      }
+      .logo__title-subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #7b7b7b;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 426px) {
+  .logo__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .logo__title-subtitle {
+    display: none;
+  }
+  .logo__link {
+  }
+}

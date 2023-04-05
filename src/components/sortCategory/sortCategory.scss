@@ -1,0 +1,48 @@
+.sortCategory {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+  .sortCategoryItem {
+    background: #f9f9f9;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #2c2c2c;
+    padding: 14px;
+    cursor: pointer;
+  }
+  .active {
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    padding: 14px;
+    cursor: pointer;
+    color: #fff;
+    background: #282828;
+    border-radius: 30px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .sortCategory {
+    gap: 1px;
+    .sortCategoryItem {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px;
+    }
+    .active {
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.sortBlock {
+  padding: 40px 67px 30px 67px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 769px) {
+  .sortBlock {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

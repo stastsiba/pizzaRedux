@@ -1,0 +1,40 @@
+.basketBottomButton__wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 821px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 131px 0;
+  .basketBottomButton__back {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: #ffffff;
+    border: 1px solid #d3d3d3;
+    border-radius: 30px;
+    padding: 18px 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #cacaca;
+    cursor: pointer;
+  }
+  .basketBottomButton__pay {
+    border-style: none;
+    background: #fe5f1e;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 18px 80px;
+  }
+}

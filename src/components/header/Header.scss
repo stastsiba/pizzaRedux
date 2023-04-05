@@ -1,0 +1,13 @@
+.header {
+  padding: 50px 67px 40px 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media only screen and (max-width: 426px) {
+  .header {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
