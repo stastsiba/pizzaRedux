@@ -25,7 +25,7 @@ export const productsSlice = createSlice({
         if (action.payload.countAction === 'remove') {
           findItems.count--;
           if (findItems.count < 1) {
-            state.basketItem = state.basketItem.filter((item) => item.count > 1);
+            state.basketItem = state.basketItem.filter((item) => item.count >= 1);
           }
           state.sum -= action.payload.price;
           return;

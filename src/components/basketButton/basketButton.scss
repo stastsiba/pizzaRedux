@@ -35,3 +35,40 @@
     }
   }
 }
+
+@media only screen and (max-width: 426px) {
+  .basketButton{
+    .basketButton__wrapper{
+      padding: 10px 50px;
+      .basketButton__price {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #ffffff;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 376px) {
+  .basketButton {
+    .basketButton__wrapper{
+      padding: 10px 50px;
+      .basketButton__price {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #ffffff;
+      }
+      .basketButton__sum-container {
+        .basketButton__sum-counter {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 14px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+}
