@@ -46,3 +46,17 @@
     }
   }
 }
+@media only screen and (max-width: 370px) {
+  .sortCategory {
+    .sortCategoryItem {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 8px;
+    }
+    .active {
+      font-size: 11px;
+      font-weight: 500;
+      padding: 8px;
+    }
+  }
+}
